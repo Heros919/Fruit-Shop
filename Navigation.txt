@@ -1,0 +1,26 @@
+NAVIGATION — LOW-FIDELITY WIREFRAME
+
+EXPANDED (window width 300 px or greater)
+
++----------------------+
+| FRUIT SHOP           |
+| > Products           |
+|   ProductDetails     |
+|   ShoppingCart   (2) |
+|   Checkout           |
++----------------------+
+
+COLLAPSED (window width below 300 px)
+
++------+
+| FS   |
+| [P]  |  aria-label="Products"
+| [D]  |  aria-label="ProductDetails"
+| [SC] |  aria-label="ShoppingCart"
+| [CO] |  aria-label="Checkout"
++------+
+
+Behavior:
+- Each item navigates directly to its corresponding page.
+- Highlight the currently selected page in both menu modes.
+- Provide accessible names and a tooltip with the full page name for each abbreviation.

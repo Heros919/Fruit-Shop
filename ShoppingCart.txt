@@ -1,0 +1,23 @@
+SHOPPINGCART — LOW-FIDELITY WIREFRAME
+
++----------------------+----------------------------------------------+
+| FRUIT SHOP           | ShoppingCart                                 |
+|----------------------|----------------------------------------------|
+|   Products           | Cart items:                                  |
+|   ProductDetails     |                                              |
+| > ShoppingCart (2)   | [Emoji] Maca    Qtd [- 2 +]  R$ 17,80        |
+|   Checkout           |                               [Remove]       |
+|                      |                                              |
+|                      | [Emoji] Banana  Qtd [- 1 +]  R$  6,50        |
+|                      |                               [Remove]       |
+|                      | ------------------------------------------   |
+|                      | Subtotal:                         R$ 24,30   |
+|                      |                                              |
+|                      | [Continue Shopping] [Proceed to Checkout]   |
++----------------------+----------------------------------------------+
+
+Behavior:
+- Each line total equals unit price multiplied by quantity.
+- Quantity changes update the subtotal and total immediately.
+- Remove deletes that product from the cart.
+- Empty state: "Your cart is empty" and [View Products].

@@ -1,0 +1,21 @@
+PRODUCTS — LOW-FIDELITY WIREFRAME
+
++----------------------+----------------------------------------------+
+| FRUIT SHOP           | Products                                     |
+|----------------------|----------------------------------------------|
+| > Products           | [Emoji] Maçã       R$ 8,90/kg  Qtd [- 1 +]  |
+|   ProductDetails     |                              [Details] [Add] |
+|   ShoppingCart       |                                              |
+|   Checkout           | [Emoji] Banana     R$ 6,50/kg  Qtd [- 1 +]  |
+|                      |                              [Details] [Add] |
+|                      |                                              |
+|                      | [Emoji] Laranja    R$ 5,90/kg  Qtd [- 1 +]  |
+|                      |                              [Details] [Add] |
+|                      |                                              |
+|                      | ... (10 fruit products total)                |
++----------------------+----------------------------------------------+
+
+Behavior:
+- Details opens ProductDetails for the selected fruit.
+- Add puts the selected quantity in the cart without leaving this page.
+- Quantity must be an integer of 1 or greater.

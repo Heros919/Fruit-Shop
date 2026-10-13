@@ -1,0 +1,19 @@
+CHECKOUT — LOW-FIDELITY WIREFRAME
+
++----------------------+----------------------------------------------+
+| FRUIT SHOP           | Checkout                                     |
+|----------------------|----------------------------------------------|
+|   Products           | Order Summary:                               |
+|   ProductDetails     |                                              |
+|   ShoppingCart (2)   | [Emoji] Maca   x2              R$ 17,80      |
+| > Checkout           | [Emoji] Banana x1              R$  6,50      |
+|                      | ------------------------------------------   |
+|                      | Total:                            R$ 24,30   |
+|                      |                                              |
+|                      | [Back to ShoppingCart] [Process Order]      |
++----------------------+----------------------------------------------+
+
+Behavior:
+- Process Order displays a prototype confirmation and clears the cart.
+- No payment or real order submission takes place.
+- Empty state explains there are no items to process and offers [View Products].

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4f8f1">
+    <title>Fruit Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <a class="brand" href="#/products" aria-label="Fruit Shop home">
+          <span class="brand-mark" aria-hidden="true">F</span>
+          <span class="brand-name">Fruit Shop</span>
+        </a>
+        <nav>
+          <a class="nav-link" href="#/products" data-route="products" aria-label="Products" title="Products">
+            <span class="nav-icon" aria-hidden="true">P</span><span class="nav-label">Products</span>
+          </a>
+          <a class="nav-link" href="#/product-details" data-route="product-details" aria-label="ProductDetails" title="ProductDetails">
+            <span class="nav-icon" aria-hidden="true">D</span><span class="nav-label">ProductDetails</span>
+          </a>
+          <a class="nav-link" href="#/shopping-cart" data-route="shopping-cart" aria-label="ShoppingCart" title="ShoppingCart">
+            <span class="nav-icon" aria-hidden="true">SC</span><span class="nav-label">ShoppingCart</span>
+            <span class="nav-count" id="cart-count" aria-label="0 items in cart">0</span>
+          </a>
+          <a class="nav-link" href="#/checkout" data-route="checkout" aria-label="Checkout" title="Checkout">
+            <span class="nav-icon" aria-hidden="true">CO</span><span class="nav-label">Checkout</span>
+          </a>
+        </nav>
+        <p class="sidebar-note">Fresh picks, simple shopping.</p>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">FRESH MARKET</p>
+            <h1 id="page-title">Products</h1>
+          </div>
+          <a class="cart-shortcut" href="#/shopping-cart" aria-label="Open shopping cart">
+            <span aria-hidden="true">🧺</span><span>Cart</span><span class="cart-shortcut-count" id="header-cart-count">0</span>
+          </a>
+        </header>
+        <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+        <section id="page-content" aria-live="polite"></section>
+        <footer class="footer">Fruit Shop prototype · Sample products only · No real orders or payments</footer>
+      </main>
+    </div>
+  </body>
+</html>

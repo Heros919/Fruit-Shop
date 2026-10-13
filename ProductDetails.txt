@@ -1,0 +1,19 @@
+PRODUCTDETAILS — LOW-FIDELITY WIREFRAME
+
++----------------------+----------------------------------------------+
+| FRUIT SHOP           | ProductDetails                               |
+|----------------------|----------------------------------------------|
+|   Products           |                                              |
+| > ProductDetails     |                    [Emoji]                  |
+|   ShoppingCart       |                                              |
+|   Checkout           | Morango                                      |
+|                      | Morangos frescos, aromaticos e doces.        |
+|                      | Preco: R$ 12,90/caixa                        |
+|                      |                                              |
+|                      | [Back to Products]                           |
++----------------------+----------------------------------------------+
+
+Behavior:
+- Show the selected product's name, description, unit price, and emoji.
+- Back to Products returns to the catalog.
+- If the product is missing or invalid, show a message and a way back to Products.
